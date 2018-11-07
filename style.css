@@ -22,7 +22,7 @@ h2, h3 {
   text-align: center;
 }
 
-.movie_poster {
+.movie-poster {
   width: 300px;
   padding-right: 20px;
   padding-bottom: 10px;
@@ -39,7 +39,7 @@ h2, h3 {
   border:1px solid #decdc3;
 }
 
-.movie.description {
+.movie-description {
   line-height: 30px;
 }
 
@@ -65,7 +65,7 @@ h2, h3 {
   border-radius: 5px;
   padding:20px;
   margin:10px;
-  box-shadow: 2px 2px 0px #decdc3;
+  box-shadow: 2px 2px 1px #decdc3;
 }
 
 .container {
@@ -81,6 +81,42 @@ ul.list-inline {
   display: inline-block;
   padding: 10px 20px;
   padding-left: 0px;
+}
+
+.menu-item {
+  font-size: 80px;
+  color: #1d2323;
+  padding: 10px;
+  margin: 10px;
+  display: table;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu-item:hover {
+  color: #5c848e;
+  font-size: 90px;
+}
+
+.icons {
+  margin: 10px;
+  font-size: 15px;
+  color: #decdc3;
+}
+
+#sidebar {
+  position: fixed;
+  width: 150px;
+  left: 30px;
+  top: 0;
+  bottom: 0;
+  background-color: #fcf5ee;
+  border-radius: 3px;
+  margin:10px;
+
+}
+#page-content {
+  margin-left: 0px;
 }
 
 @media (max-width: 960px) {
